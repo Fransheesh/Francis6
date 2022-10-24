@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --text: #2ec1ac;
+  --text_hover: #279e8c;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.h-font {
+  font-family: "Merienda", cursive;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.custom-bg {
+  background-color: var(--text);
+  border: 1px solid var(--text);
+}
+
+.custom-bg:hover {
+  background-color: var(--text_hover);
+  border-color: var(--text_hover);
+}
+
+.h-line {
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
